@@ -1,11 +1,16 @@
-_site
+# OS
 .DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-node_modules
+
+# Jekyll
+_site
 .sass-cache
 .jekyll-metadata
 .bundle
 vendor/
 images/.comments
+
+# Edit
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules

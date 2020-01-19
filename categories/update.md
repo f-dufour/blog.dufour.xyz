@@ -3,4 +3,5 @@ layout: category
 category: update
 permalink: /categories/update/
 ---
-This is an example description.
+
+This category contains various posts related to updates. Wether about this blog or about life in general.
