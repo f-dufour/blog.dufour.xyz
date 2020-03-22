@@ -31,6 +31,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
+    jekyll-sitemap (1.2.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -40,8 +44,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
@@ -71,8 +73,9 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (= 3.4.1)
-  jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
   tzinfo-data
 
 RUBY VERSION

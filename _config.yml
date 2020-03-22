@@ -2,22 +2,27 @@ title: Souvenirs of an Electric Co.
 owner: Florent Dufour
 email: florent@dufour.xyz
 description: Florent Dufour's blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.dufour.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+
+baseurl: ""
+url: "https://blog.dufour.xyz"
 language: en
+encoding: utf-8
+timezone: Europe/Paris
+
 github_username: f-dufour
 instagram_username: flrnt.dfr
 
-# Build settings
 markdown: kramdown
-theme: minima
 
 permalink: /:categories/:title
 
 gems:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/bundle
+
 excerpt_separator: <!--more-->
