@@ -10,7 +10,7 @@ title: Home
     <i>posted on {{ post.date | date: "%-d %b %Y" }}</i>
     <p>
       {% if post.excerpt %}
-        {{ post.excerpt }} ... read more
+        {{ post.excerpt }}
       {% else %}
         {{ post.content }}
       {% endif %}
