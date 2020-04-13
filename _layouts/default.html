@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{site.language}}">
-  {% include head.html %}
-  <body>
-	<div id="main">
-		{% include logo.html %}
-		{% include nav.html %}
-		<div id="content-left">
-      <h2>{{page.title}}</h2>
-      {{content}}
-		</div>
-		{% include footer.html %}
+---
+layout: blank
+---
+
+<div id="main">
+	{% include logo.html %}
+	{% include nav.html %}
+	<div id="content-left">
+     <h2>{{page.title}}</h2>
+	 {{content}}
+	 {% include footer.html %}
 	</div>
-    </body>
-</html>
+
+</div>

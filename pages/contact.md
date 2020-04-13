@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
+permalink: /contact
 ---
 
 Drop me a line at: [florent@dufour.xyz](https://github.com/f-dufour?tab=repositories).
