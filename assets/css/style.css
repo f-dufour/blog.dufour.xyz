@@ -26,36 +26,25 @@ body {
 	line-height: 150%;
 }
 
-em {
-	background: #fdf52b;
+::selection { 
+	background: #fdf52b; 
 }
 
-a:link {
+em,
+.cta{
+	background: #fdf52b; 
+}
+
+a,
+a:visited {
 	text-decoration: underline;
+	color: inherit; 
 }
 
 a:hover {
 	text-decoration: none;
 	background: #fdf52b;
 }
-
-a,
-a:visited {
-	text-decoration: underline;
-	color: inherit;
-}
-
-/*
-a:link, a:visited	{
-	text-decoration: none;
-	color:#000
-}
-
-a:hover	{
-	text-decoration: underline;
-}
-*/
-
 
 #main {
 	width: 50%;
