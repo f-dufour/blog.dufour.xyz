@@ -1,5 +1,5 @@
 ---
-title: We simply postponed Pint of science !
+title: We simply postponed Pint of science!
 author: Florent Dufour
 layout: post
 category: [update]
