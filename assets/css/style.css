@@ -23,7 +23,8 @@ body {
 	padding: 0;
 	font-family: alma, 'monospace', 'Courier', 'Cutive Mono', serif;
 	font-size: 100%;
-	line-height: 150%;
+	/* line-height: 150%; */
+	letter-spacing: -0.05em;
 }
 
 ::selection { 
@@ -47,7 +48,7 @@ a:hover {
 }
 
 #main {
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
 }
 
@@ -76,6 +77,10 @@ a:hover {
 	padding-top: 20px;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
+}
+
+#post-content {
+	text-align: justify;
 }
 
 #footer {
@@ -143,4 +148,8 @@ a:hover {
 
 #categories a:hover {
 	text-decoration: underline;
+}
+
+figcaption {
+	font-style: italic;
 }

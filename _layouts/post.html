@@ -5,7 +5,9 @@ layout: default
 <div id="content-left">
   <div id="post">
     <i>posted on {{ page.date | date: "%-d %b %Y" }} · {{ page.author }}</i>
-    {{ content }}
+    <div id="post-content">
+      {{ content }}
+    </div>
     {% if page.categories.size > 0 %}
     <div id="categories">
       <p><b>Categories:</b>&nbsp;
