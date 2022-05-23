@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 {% for post in site.posts %}
   <div id="post-short">
     <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
@@ -14,7 +15,6 @@ title: Home
       {% else %}
         {{ post.content }}
       {% endif %}
-
     </p>
   </div>
 {% endfor %}

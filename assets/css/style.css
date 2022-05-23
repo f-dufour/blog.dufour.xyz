@@ -1,40 +1,24 @@
-@font-face {
-	font-family: 'alma';
-	src: url(/assets/fonts/alma/AlmaMono-Regular.otf);
-	src: url(/assets/fonts/alma/almamono-regular-webfont.woff) format('woff'),
-		url(/assets/fonts/alma/almamono-regular-webfont.woff2) format('woff2'),
-		url(/assets/fonts/alma/AlmaMono-Regular.ttf) format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'alma';
-	src: url(/assets/fonts/alma/AlmaMono-Bold.otf);
-	src: url(/assets/fonts/alma/almamono-bold-webfont.woff) format('woff'),
-		url(/assets/fonts/alma/almamono-bold-webfont.woff2) format('woff2'),
-		url(/assets/fonts/alma/AlmaMono-Bold.ttf) format('truetype');
-	font-weight: bold;
-	font-style: bold;
-}
-
 body {
 	margin-top: 0px;
 	padding: 0;
-	font-family: alma, 'monospace', 'Courier', 'Cutive Mono', serif;
+	font-family: LM, serif;
 	font-size: 100%;
-	/* line-height: 150%; */
-	letter-spacing: -0.05em;
+	width: 40%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+	/* Mobile phone */
+	body {
+		width: 100%;
+	}
 }
 
 ::selection { 
 	background: #fdf52b; 
 }
 
-em,
-.cta{
-	background: #fdf52b; 
-}
+/* LINKS STUFF */
 
 a,
 a:visited {
@@ -47,29 +31,40 @@ a:hover {
 	background: #fdf52b;
 }
 
-#main {
-	width: 40%;
-	margin: 0 auto;
+em,
+.cta{
+	background: #fdf52b; 
 }
 
-@media only screen and (max-width: 768px) {
-	/* Mobile phone */
-	#main {
-		width: 100%;
-	}
+/* TOP PAGE */
+
+#logo {
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo a {
+	text-decoration: none;
+	background: none;
 }
 
 #nav {
 	text-align: center;
-	margin: auto;
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
 	border-bottom: 1px solid #000;
 }
 
-#content-left {
+/* CONTENT */
+
+h1 {
+
+}
+
+#content {
 	text-align: left;
 	margin: auto;
 	padding-top: 5px;
@@ -77,18 +72,11 @@ a:hover {
 	padding-bottom: 20px;
 }
 
-#content {
-	text-align: center;
-	margin: auto;
-	margin-top: 20px;
-	padding-top: 20px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-}
-
 #post-content {
 	text-align: justify;
 }
+
+/* BOTTOM PAGE */
 
 #footer {
 	text-align: center;
@@ -99,23 +87,13 @@ a:hover {
 	border-top: 1px solid #000;
 }
 
-#logo a {
-	text-align: center;
-	margin: 20px auto 20px auto;
-	text-decoration: none;
-}
-
-#logo img {
-	max-width: 50%;
-}
-
-#content-left a:link,
-#content-left a:visited {
+#content a:link,
+#content a:visited {
 	text-decoration: underline;
 	color: #000
 }
 
-#content-left a:hover {
+#content a:hover {
 	text-decoration: none;
 }
 

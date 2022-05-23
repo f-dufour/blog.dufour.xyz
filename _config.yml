@@ -1,7 +1,7 @@
 title: Souvenirs of an Electric Co.
 owner: Florent Dufour
 name: Florent Dufour
-email: florent+blog@dufour.xyz
+email: blog@dufour.xyz
 description: Florent Dufour's blog
 
 baseurl: ""
@@ -26,6 +26,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/bundle
+  - _posts/hidden
 
 excerpt_separator: <!--more-->
 paginate: 10

@@ -1,7 +1,6 @@
 <div id="footer">
   <p>
-  <!-- TODO JS to display year-->
-    © 2020 - 2022 <a href="https://dufour.xyz">{{ site.owner }}</a>  ·
+    © 2020 - {{ "now" | date: "%Y" }}  ·  <a href="https://dufour.xyz">{{ site.owner }}</a>  ·
     <a href={% link pages/categories.md %}>Categories</a> ·
     <a href={% link pages/projects.md %}>Projects</a>
   </p>

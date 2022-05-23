@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<div id="content-left">
+<div id="content">
   <div id="post">
+    <h1>{{ page.title }}</h1>
     <i>posted on {{ page.date | date: "%-d %b %Y" }} · {{ page.author }}</i>
     <div id="post-content">
       {{ content }}
@@ -16,10 +17,6 @@ layout: default
         {% endfor %}
       </p>
     </div>
-    {% endif %}
-    {% if site.disqus_username and page.comments or site.comments %}
-    <div id="disqus_thread"></div><!-- /#disqus_thread -->
-    {% include disqus-comments.html %}
     {% endif %}
   </div>
 </div>
