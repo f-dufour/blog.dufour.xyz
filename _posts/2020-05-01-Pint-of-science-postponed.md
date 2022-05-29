@@ -1,10 +1,12 @@
 ---
-title: We simply postponed Pint of science!
-author: Florent Dufour
 layout: post
+title: We simply postponed Pint of science!
+slug: POS-postponed
+author: Florent Dufour
+date: 2020-05-01
+location: Nancy
 category: [update]
 tag: [Pint of science, event]
-date: 2020-05-01
 ---
 
 Pint of Science 2020 was expected to take place on the three evenings of the 11<sup>th</sup>, 12<sup>th</sup>, and 13<sup>th</sup> of May 2020 worldwide. 
@@ -21,4 +23,4 @@ We hope that everyone will recover until then and that we will be able to meet i
 
 Do not hesitate to support the organization by [donating](https://pintofscience.com/donate/).
 
-Keep safe !
+Stay safe !
