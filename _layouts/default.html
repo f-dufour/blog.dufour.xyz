@@ -2,13 +2,9 @@
 layout: blank
 ---
 
-<div id="main">
-	{% include logo.html %}
-	{% include nav.html %}
-	<div id="content">
-
-	 {{content}}
-	 
-	 {% include footer.html %}
-	</div>
+{% include logo.html %}
+{% include nav.html %}
+<div id="content">
+	{{content}}
 </div>
+{% include footer.html %}

@@ -10,12 +10,30 @@ body {
 @media only screen and (max-width: 768px) {
 	/* Mobile phone */
 	body {
-		width: 100%;
+		width: 95%;
 	}
 }
 
 ::selection { 
 	background: #fdf52b; 
+}
+
+em,
+.cta{
+	background: #fdf52b;
+	font-style: normal;
+}
+
+li {
+	list-style-type: "– ";
+}
+
+blockquote {
+	margin-left: 2em;
+	font-style: italic;
+	border-left: #000 solid 1px;
+	padding-left: 1em;
+	text-align: left;
 }
 
 /* LINKS STUFF */
@@ -29,11 +47,6 @@ a:visited {
 a:hover {
 	text-decoration: none;
 	background: #fdf52b;
-}
-
-em,
-.cta{
-	background: #fdf52b; 
 }
 
 /* TOP PAGE */
@@ -58,35 +71,6 @@ em,
 	border-bottom: 1px solid #000;
 }
 
-/* CONTENT */
-
-h1 {
-
-}
-
-#content {
-	text-align: left;
-	margin: auto;
-	padding-top: 5px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-}
-
-#post-content {
-	text-align: justify;
-}
-
-/* BOTTOM PAGE */
-
-#footer {
-	text-align: center;
-	margin: auto;
-	font-size: 0.8em;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	border-top: 1px solid #000;
-}
-
 #content a:link,
 #content a:visited {
 	text-decoration: underline;
@@ -107,6 +91,35 @@ h1 {
 	text-decoration: underline;
 }
 
+#categories a,
+#categories a:link,
+#categories a:visited {
+	background-color: grey;
+	text-decoration: none;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	border-radius: 25px;
+}
+
+#categories a:hover {
+	text-decoration: underline;
+}
+
+/* CONTENT */
+
+#content {
+	text-align: left;
+	margin: auto;
+	padding: auto;
+}
+
+#post-content {
+	text-align: justify;
+}
+
+h1 h2 {
+	text-align: left;
+}
+
 #post-short h3,
 #post h2 {
 	margin-bottom: 0px;
@@ -122,19 +135,17 @@ h1 {
 	color: grey;
 }
 
-#categories a,
-#categories a:link,
-#categories a:visited {
-	background-color: grey;
-	text-decoration: none;
-	padding: 0.1em 0.5em 0.1em 0.5em;
-	border-radius: 25px;
-}
-
-#categories a:hover {
-	text-decoration: underline;
-}
-
 figcaption {
 	font-style: italic;
+}
+
+/* BOTTOM PAGE */
+
+#footer {
+	text-align: center;
+	margin: auto;
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #000;
 }

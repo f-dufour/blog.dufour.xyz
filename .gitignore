@@ -11,7 +11,5 @@ vendor/
 images/.comments
 
 # Edit
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
 node_modules
+.vscode

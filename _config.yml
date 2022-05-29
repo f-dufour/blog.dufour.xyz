@@ -3,19 +3,14 @@ owner: Florent Dufour
 name: Florent Dufour
 email: blog@dufour.xyz
 description: Florent Dufour's blog
+theme-color: "#fdf52b"
 
-baseurl: ""
 url: "https://blog.dufour.xyz"
 language: en
 encoding: utf-8
 timezone: Europe/Paris
-
-github_username: f-dufour
-instagram_username: flrnt.dfr
-
 markdown: kramdown
-
-permalink: /:categories/:title
+permalink: /:year/:title
 
 gems:
   - jekyll-feed
