@@ -8,7 +8,7 @@ title: Home
     <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
       <h3>{{post.title}}</h3>
     </a>
-    <i>posted on {{ post.date | date: "%b, %-d %Y" }}</i>
+    <i>In {{ post.category.first }}, posted on {{ post.date | date: "%b, %-d %Y" }}</i>
     <p>
       {% if post.excerpt %}
         {{ post.excerpt | strip_html }} <a href="{{ post.url }}" class="cta">... read more</a>
