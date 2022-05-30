@@ -4,15 +4,15 @@ layout: default
 
 <div id="content">
   <div id="post">
-    <h1>{{ page.title }}</h1>
-    <i>{{ page.author }}</i>
-    {% if page.location %}
-    <i> · {{ page.location }}</i>
-    {% endif %}
-    <br>
+    <h2>{{ page.title }}</h2>
     <i>posted on {{ page.date | date: "%-d. %b %Y" }}</i>
     {% if page.modified %}
     <i> · last edited on {{ page.modified | date: "%-d. %b %Y" }}</i>
+    {% endif %}
+    <br>
+    <i>{{ page.author }}</i>
+    {% if page.location %}
+    <i> · {{ page.location }}</i>
     {% endif %}
     <div id="post-content">
       {{ content }}
