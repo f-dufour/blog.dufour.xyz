@@ -1,3 +1,12 @@
+:root {
+	--accent-color: #fdf52b;
+	--accent-color-dark: darkgrey;
+	--font-color: black;
+	--font-color-dark: white ;
+	--background-color: white;
+	--background-color-dark: #333;
+}
+
 body {
 	margin-top: 0px;
 	padding: 0;
@@ -8,12 +17,16 @@ body {
 }
 
 ::selection { 
-	background: #fdf52b; 
+	background: var(--accent-color);
+}
+
+img {
+	max-width: 100%;
 }
 
 em,
 .cta{
-	background: #fdf52b;
+	background: var(--accent-color);
 	font-style: normal;
 }
 
@@ -24,7 +37,7 @@ ul li {
 blockquote {
 	margin-left: 2em;
 	font-style: italic;
-	border-left: #000 solid 1px;
+	border-left: var(--font-color) solid 1px;
 	padding-left: 1em;
 	text-align: left;
 }
@@ -52,7 +65,7 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-	background: #fdf52b;
+	background: var(--accent-color);
 }
 
 /* TOP PAGE */
@@ -74,7 +87,7 @@ a:hover {
 	text-align: center;
 	padding-top: 0.5em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid var(--font-color);
 }
 
 #content a:link,
@@ -89,7 +102,7 @@ a:hover {
 #post-short a:link,
 #post-short a:visited {
 	text-decoration: none;
-	color: #000
+	color: var(--font-color)
 }
 
 #post-short a:hover {
@@ -153,7 +166,7 @@ figcaption {
 	margin-bottom: 10px;
 	margin-top: 1em;
 	padding-bottom: 10px;
-	border-top: 1px solid #000;
+	border-top: 1px solid var(--font-color);
 }
 
 /* Media Query */
@@ -168,32 +181,46 @@ figcaption {
 @media (prefers-color-scheme: dark) {
 	
 	html {
-		background-color: #222;
-		color: white;
+		background-color: var(--background-color-dark);
+		color: var(--font-color-dark);
+	}
+
+	::selection { 
+		background: var(--accent-color-dark);
 	}
 	
 	h1, h2, h3 {
-		color: white;
+		color: var(--font-color-dark);
 	}
 	
 	em,
 	.cta{
 		color: black;
 	}
+	
+	a:hover {
+		background: var(--accent-color-dark);
+		text-decoration-color: var(--font-color-dark);
+	}
 
 	pre {
-		background-color: #333;
+		background-color: var(--background-color-dark);
 	}
 
 	blockquote {
-		border-left-color: white;
+		border-left-color: var(--font-color-dark);
+	}
+
+	em,
+	.cta{
+		background: var(--accent-color-dark);
 	}
 
 	#nav {
-		border-bottom-color: white;
+		border-bottom-color: var(--font-color-dark);
 	}
 
 	#footer {
-		border-top-color: white;
+		border-top-color: var(--font-color-dark);
 	}
 }
