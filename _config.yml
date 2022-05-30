@@ -3,6 +3,7 @@ owner: Florent Dufour
 name: Florent Dufour
 email: blog@dufour.xyz
 description: Florent Dufour's blog
+parent: "https://dufour.xyz"
 theme-color: "#fdf52b"
 
 url: "https://blog.dufour.xyz"
@@ -17,6 +18,7 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+
 exclude:
   - Gemfile
   - Gemfile.lock

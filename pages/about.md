@@ -11,5 +11,8 @@ I've been working on new technology applied to healthcare in the fields of nanot
 I am an avid coder and tech hacker.
 
 <center>
-    <img src="/assets/img/macmade-wht.gif">
+<picture>
+  <source srcset="/assets/img/macmade-blk.gif" media="(prefers-color-scheme:dark)">
+  <img src="/assets/img/macmade-wht.gif">
+</picture>
 </center>

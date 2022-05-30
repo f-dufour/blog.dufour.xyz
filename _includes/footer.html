@@ -1,11 +1,12 @@
 <div id="footer">
   <p>
-    © 2020 - {{ "now" | date: "%Y" }}  ·  <a href="https://dufour.xyz">{{ site.owner }}</a>  ·
+    © 2020 - {{ "now" | date: "%Y" }}  ·
+    <a href={{ site.parent }}>{{ site.owner }}</a>  ·
     <a href={% link pages/categories.md %}>Categories</a> ·
     <a href={% link pages/projects.md %}>Projects</a> ·
     <a href=/feed.xml>Atom</a>
   </p>
-  <p id="random-quote">The road becomes what you leave</p>
+  <p id="random-quote">“The road becomes what you leave”</p>
 </div>
 
 <script type="text/javascript">

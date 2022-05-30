@@ -7,13 +7,6 @@ body {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
-	/* Mobile phone */
-	body {
-		width: 95%;
-	}
-}
-
 ::selection { 
 	background: #fdf52b; 
 }
@@ -24,7 +17,7 @@ em,
 	font-style: normal;
 }
 
-li {
+ul li {
 	list-style-type: "– ";
 }
 
@@ -34,6 +27,19 @@ blockquote {
 	border-left: #000 solid 1px;
 	padding-left: 1em;
 	text-align: left;
+}
+
+pre {
+	background-color: whitesmoke;
+	padding: 0.25em;
+}
+
+code {
+	font-family: LM-Mono;
+}
+
+.footnote {
+	font-size: small;
 }
 
 /* LINKS STUFF */
@@ -74,7 +80,6 @@ a:hover {
 #content a:link,
 #content a:visited {
 	text-decoration: underline;
-	color: #000
 }
 
 #content a:hover {
@@ -116,6 +121,10 @@ a:hover {
 	text-align: justify;
 }
 
+h1 {
+	margin-bottom: 0;
+}
+
 h1 h2 {
 	text-align: left;
 }
@@ -125,13 +134,9 @@ h1 h2 {
 	margin-bottom: 0px;
 }
 
-#post-short i {
-	font-size: 0.8em;
-	color: grey;
-}
-
+#post-short i,
 #post i {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	color: grey;
 }
 
@@ -146,6 +151,49 @@ figcaption {
 	margin: auto;
 	font-size: 0.8em;
 	margin-bottom: 10px;
+	margin-top: 1em;
 	padding-bottom: 10px;
 	border-top: 1px solid #000;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+	/* Mobile phone */
+	body {
+		width: 95%;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	
+	html {
+		background-color: #222;
+		color: white;
+	}
+	
+	h1, h2, h3 {
+		color: white;
+	}
+	
+	em,
+	.cta{
+		color: black;
+	}
+
+	pre {
+		background-color: #333;
+	}
+
+	blockquote {
+		border-left-color: white;
+	}
+
+	#nav {
+		border-bottom-color: white;
+	}
+
+	#footer {
+		border-top-color: white;
+	}
 }
