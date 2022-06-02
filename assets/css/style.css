@@ -1,6 +1,6 @@
 :root {
 	--accent-color: #fdf52b;
-	--accent-color-dark: darkgrey;
+	--accent-color-dark: lightgrey;
 	--font-color: black;
 	--font-color-dark: white ;
 	--background-color: white;
@@ -196,6 +196,7 @@ figcaption {
 	em,
 	.cta{
 		color: black;
+		background: var(--accent-color-dark);
 	}
 	
 	a:hover {
@@ -204,16 +205,11 @@ figcaption {
 	}
 
 	pre {
-		background-color: var(--background-color-dark);
+		background-color: #222;
 	}
 
 	blockquote {
 		border-left-color: var(--font-color-dark);
-	}
-
-	em,
-	.cta{
-		background: var(--accent-color-dark);
 	}
 
 	#nav {
