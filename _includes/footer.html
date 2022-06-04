@@ -13,9 +13,19 @@
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "/assets/quotes.txt");
   xhr.send();
-  xhr.onload = function() {
+
+  function makeQuote() {
     let quotes = xhr.response.split("\n");
     let theQuote = quotes[quotes.length * Math.random() | 0];
     document.getElementById('random-quote').firstChild.nodeValue = '“' + theQuote + '”';
+  }
+
+  xhr.onload = function() {
+    makeQuote();
   };
+
+  document.getElementById('random-quote').addEventListener('click', function (event) {
+    makeQuote();
+  }, false);
+
 </script>

@@ -1,10 +1,11 @@
 title: Souvenirs of an Electric Co.
 owner: Florent Dufour
-name: Florent Dufour
 email: blog@dufour.xyz
+keywords: [florent, dufour, blog, xyz, AI, Munich, blockchain, health, research, privacy]
 description: Florent Dufour's blog
 parent: "https://dufour.xyz"
 theme-color: "#fdf52b"
+theme-color-dark: "#333"
 
 url: "https://blog.dufour.xyz"
 language: en
@@ -26,8 +27,6 @@ exclude:
   - _posts/hidden
 
 excerpt_separator: <!--more-->
-paginate: 10
-paginate_path: ":num"
 
 compress_html:
   clippings: []
