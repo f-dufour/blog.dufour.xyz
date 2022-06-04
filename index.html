@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+
+{% for post in site.posts limit:4 %}
+  {% include list-post-short.html %}
+{% endfor %}
+
+<center>
+<a href={% link pages/all.html %} class="cta">Show older posts</a>
+</center>

@@ -1,0 +1,15 @@
+<div id="post-short">
+  <div class="title-link">
+    <a href="{{post.url}}">
+      <h3 >✶ {{post.title}}</h3>
+  </a>
+</div>
+  <i>In {{ post.category.first }}, posted on {{ post.date | date: "%b, %-d %Y" }}</i>
+  <p>
+    {% if post.excerpt %}
+      {{ post.excerpt | strip_html }} <a href="{{ post.url }}">... read more</a>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </p>
+</div>

@@ -28,6 +28,7 @@ em,
 .cta{
 	background: var(--accent-color);
 	font-style: normal;
+	text-decoration: none;
 }
 
 ul li {
@@ -64,8 +65,25 @@ a:visited {
 }
 
 a:hover {
-	text-decoration: none;
 	background: var(--accent-color);
+	text-decoration: none;
+}
+
+.title-link a {
+	text-decoration: none;
+}
+
+.title-link a:hover {
+	text-decoration: underline;
+}
+
+#categories a,
+#categories a:link,
+#categories a:visited {
+	background-color: grey;
+	text-decoration: none;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	border-radius: 25px;
 }
 
 /* TOP PAGE */
@@ -88,38 +106,6 @@ a:hover {
 	padding-top: 0.5em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid var(--font-color);
-}
-
-#content a:link,
-#content a:visited {
-	text-decoration: underline;
-}
-
-#content a:hover {
-	text-decoration: none;
-}
-
-#post-short a:link,
-#post-short a:visited {
-	text-decoration: none;
-	color: var(--font-color)
-}
-
-#post-short a:hover {
-	text-decoration: underline;
-}
-
-#categories a,
-#categories a:link,
-#categories a:visited {
-	background-color: grey;
-	text-decoration: none;
-	padding: 0.1em 0.5em 0.1em 0.5em;
-	border-radius: 25px;
-}
-
-#categories a:hover {
-	text-decoration: underline;
 }
 
 /* CONTENT */
@@ -169,9 +155,9 @@ figcaption {
 	border-top: 1px solid var(--font-color);
 }
 
-/* Media Query */
+/* Media Queries */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 	/* Mobile phone */
 	body {
 		width: 95%;
