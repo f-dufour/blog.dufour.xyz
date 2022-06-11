@@ -14,6 +14,7 @@ body {
 	font-size: 100%;
 	width: 40%;
 	margin: 0 auto;
+	max-width: 800px;
 }
 
 ::selection { 
@@ -22,6 +23,13 @@ body {
 
 img {
 	max-width: 100%;
+}
+
+.cover { /* effective in light and dark theme */
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-khtml-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 em,
@@ -183,6 +191,11 @@ figcaption {
 	.cta{
 		color: black;
 		background: var(--accent-color-dark);
+	}
+
+	a.cta ,
+	a:visited.cta { /* Hack? */
+		color: var(--font-color); 
 	}
 	
 	a:hover {
