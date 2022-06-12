@@ -151,6 +151,10 @@ figcaption {
 	font-style: italic;
 }
 
+.footnotes {
+	font-size: 0.8em;
+}
+
 /* BOTTOM PAGE */
 
 #footer {
