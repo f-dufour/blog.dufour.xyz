@@ -64,6 +64,10 @@ code {
 	font-size: small;
 }
 
+hr {
+	
+}
+
 /* LINKS STUFF */
 
 a,
@@ -152,6 +156,7 @@ figcaption {
 }
 
 .footnotes {
+	margin-top: 4em;
 	font-size: 0.8em;
 }
 
@@ -169,7 +174,7 @@ figcaption {
 
 /* Media Queries */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	/* Mobile phone */
 	body {
 		width: 95%;
