@@ -228,6 +228,10 @@ figcaption {
 		background-color: #222;
 	}
 
+	.footnotes::before {
+		background-color: var(--font-color-dark);
+	}
+
 	blockquote {
 		border-left-color: var(--font-color-dark);
 	}
