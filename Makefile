@@ -6,7 +6,7 @@ JEKYLL=./jekyll.sh
 build: ## Build the website locally
 	$(JEKYLL) $@
 serve: ## Build and serve the website locally
-	$(JEKYLL) $@
+	$(JEKYLL) $@ --trace
 clean: ## Clean caches
 	$(JEKYLL) $@
 nuke:  ## Nuke caches and temp files 

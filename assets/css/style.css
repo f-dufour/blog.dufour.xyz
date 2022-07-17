@@ -17,19 +17,21 @@ body {
 	max-width: 800px;
 }
 
+h1 {
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 1.15em;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 1.05em;
+}
+
 ::selection { 
 	background: var(--accent-color);
-}
-
-img {
-	max-width: 100%;
-}
-
-.cover { /* effective in light and dark theme */
-	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-	-khtml-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 em,
@@ -58,14 +60,24 @@ pre {
 
 code {
 	font-family: LM-Mono;
-}
-
-.footnote {
-	font-size: small;
+	background-color: whitesmoke;
 }
 
 hr {
 	
+}
+
+/* IMAGES STUFF */
+
+img {
+	max-width: 100%;
+}
+
+.cover { /* effective in light and dark theme */
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	-khtml-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* LINKS STUFF */
@@ -132,19 +144,6 @@ a:hover {
 	text-align: justify;
 }
 
-h1 {
-	margin-bottom: 0;
-}
-
-h1 h2 {
-	text-align: left;
-}
-
-#post-short h3,
-#post h2 {
-	margin-bottom: 0px;
-}
-
 #post-short i,
 #post i {
 	font-size: 0.8em;
@@ -156,8 +155,17 @@ figcaption {
 }
 
 .footnotes {
-	margin-top: 4em;
+	margin-top: 2em;
 	font-size: 0.8em;
+}
+
+.footnotes::before {
+	content: "";
+    width: 100px;
+    height: 1px;
+    background-color: var(--font-color);
+    position: relative;
+    display: block;
 }
 
 /* BOTTOM PAGE */
@@ -213,6 +221,10 @@ figcaption {
 	}
 
 	pre {
+		background-color: #222;
+	}
+
+	code {
 		background-color: #222;
 	}
 
