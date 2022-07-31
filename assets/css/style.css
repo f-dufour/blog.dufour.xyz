@@ -144,6 +144,10 @@ a:hover {
 	text-align: justify;
 }
 
+#post-short p {
+	text-align: justify;
+}
+
 #post-short i,
 #post i {
 	font-size: 0.8em;
