@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We simply postponed Pint of science!
+title: We Simply Postponed Pint of Science!
 slug: POS-postponed
 author: Florent Dufour
 date: 2020-05-01

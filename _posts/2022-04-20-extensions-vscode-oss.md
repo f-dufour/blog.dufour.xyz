@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to get any extension to work with VSCodium
+title: How to Get Any Extension to Work With VSCodium
 slug: extensions-vscodium
 author: Florent Dufour
 date: 2022-02-20

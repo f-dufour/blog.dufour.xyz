@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We finally cancelled Pint of science 2020
+title: We Finally Cancelled Pint of Science 2020
 slug: POS-cancelled
 author: Florent Dufour
 date: 2020-08-18
