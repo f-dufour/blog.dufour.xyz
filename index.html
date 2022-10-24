@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit:5 %}
   {% include list-post-short.html %}
 {% endfor %}
 
 <center>
-<a href={% link pages/all.md %} class="cta">Show older posts</a>
+<a href="{% link pages/all.md %}" class="cta">Show older posts</a>
 </center>

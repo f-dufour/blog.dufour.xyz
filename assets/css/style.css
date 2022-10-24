@@ -17,8 +17,14 @@ body {
 	max-width: 800px;
 }
 
+s {
+	text-decoration-thickness: 1px;
+}
+
 h1 {
+	font-size: 1.3em;
 	margin-bottom: 0;
+	text-decoration-thickness: 1px;
 }
 
 h2 {
@@ -26,8 +32,13 @@ h2 {
 	margin-bottom: 0;
 }
 
+h2.subtitle {
+	margin-top: 0;
+	color: grey;
+}
+
 h3 {
-	font-size: 1.05em;
+	font-size: 1.07em;
 }
 
 ::selection { 
@@ -42,7 +53,7 @@ em,
 }
 
 ul li {
-	list-style-type: "– ";
+	list-style-type: "— ";
 }
 
 blockquote {
@@ -146,10 +157,12 @@ a:hover {
 
 #post-short p {
 	text-align: justify;
+	margin-top: 0;
+	margin-bottom: 1.5em;
 }
 
 #post-short i,
-#post i {
+article i {
 	font-size: 0.8em;
 	color: grey;
 }
@@ -225,7 +238,7 @@ figcaption {
 	}
 
 	pre {
-		background-color: #222;
+		
 	}
 
 	code {
