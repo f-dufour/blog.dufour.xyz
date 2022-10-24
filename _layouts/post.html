@@ -7,15 +7,17 @@ layout: default
   {% if page.subtitle %}
     <h2 class="subtitle">{{ page.subtitle }}</h2>
   {% endif %}
-  <time><i>posted on {{ page.date | date: "%b, %-d %Y" }}</i></time>
-  {% if page.modified %}
-    <i> · last edited on {{ page.modified | date: "%b, %-d %Y" }}</i>
-  {% endif %}
-  <br>
-  <i>{{ page.author }}</i>
-  {% if page.location %}
-    <i> · {{ page.location }}</i>
-  {% endif %}
+  <div class="byline">
+    <time datetime="{{ page.date | time_tag }}">posted on {{ page.date | date: "%b, %-d %Y" }}</time>
+    {% if page.modified %}
+      · last edited on {{ page.modified | date: "%b, %-d %Y" }}
+    {% endif %}
+    <br>
+    {{ page.author }}
+    {% if page.location %}
+      · {{ page.location }}
+    {% endif %}
+  </div>
   <div id="post-content">
     {{ content }}
   </div>
