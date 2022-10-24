@@ -7,7 +7,7 @@ layout: default
   {% if page.subtitle %}
     <h2 class="subtitle">{{ page.subtitle }}</h2>
   {% endif %}
-  <i>posted on {{ page.date | date: "%b, %-d %Y" }}</i>
+  <time><i>posted on {{ page.date | date: "%b, %-d %Y" }}</i></time>
   {% if page.modified %}
     <i> · last edited on {{ page.modified | date: "%b, %-d %Y" }}</i>
   {% endif %}
