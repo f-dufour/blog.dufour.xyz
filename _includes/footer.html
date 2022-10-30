@@ -1,29 +1,29 @@
 <div id="footer">
   <p>
     © 2020 - {{ "now" | date: "%Y" }}  ·
-    <a href={{ site.parent }}>{{ site.owner }}</a>  ·
-    <a href={% link pages/projects.md %}>Projects</a> ·
+    <a href="{{ site.parent }}">{{ site.owner }}</a>  ·
+    <a href="{% link pages/projects.md %}">Projects</a> ·
     <a href=/feed.xml>Atom</a>
   </p>
-  <p id="random-quote">“The road becomes what you leave”</p>
+  <p id="wow">“The road becomes what you leave”</p>
 </div>
 
 <script type="text/javascript">
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "/assets/quotes.txt");
+  xhr.open("GET", "{% link /assets/wow.txt %}");
   xhr.send();
 
   function makeQuote() {
-    let quotes = xhr.response.split("\n");
-    let theQuote = quotes[quotes.length * Math.random() | 0];
-    document.getElementById('random-quote').firstChild.nodeValue = '“' + theQuote + '”';
+    let wow = xhr.response.split("\n");
+    let w = wow[wow.length * Math.random() | 0];
+    document.getElementById('wow').firstChild.nodeValue = '“' + w + '”';
   }
 
   xhr.onload = function() {
     makeQuote();
   };
 
-  document.getElementById('random-quote').addEventListener('click', function (event) {
+  document.getElementById('wow').addEventListener('click', function (event) {
     makeQuote();
   }, false);
 
