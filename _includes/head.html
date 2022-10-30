@@ -18,11 +18,11 @@
     <meta itemprop="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
     <meta itemprop="image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_img | absolute_url }}{% endif %}">
 
-    {% seo %}
-    {% feed_meta %}
-
     <link href={% link /assets/css/style.css %} type="text/css" rel="stylesheet"></link>
     <link href={% link /assets/css/fonts.css %} type="text/css" rel="stylesheet"></link>
+    
+    {% seo %}
+    {% feed_meta %}
     
     {% if page.math %}
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
