@@ -32,7 +32,9 @@ h2 {
 	margin-bottom: 0;
 }
 
-h2.subtitle {
+.subtitle {
+	font-weight: bold;
+	font-size: 1.15em;
 	margin-top: 0;
 	color: grey;
 }
@@ -72,10 +74,6 @@ pre {
 code {
 	font-family: LM-Mono;
 	background-color: whitesmoke;
-}
-
-hr {
-	
 }
 
 /* IMAGES STUFF */
@@ -236,10 +234,6 @@ figcaption {
 	a:hover {
 		background: var(--accent-color-dark);
 		text-decoration-color: var(--font-color-dark);
-	}
-
-	pre {
-		
 	}
 
 	code {

@@ -5,7 +5,7 @@ layout: default
 <article>
   <h1 class="title">{{ page.title }}</h1>
   {% if page.subtitle %}
-    <h2 class="subtitle">{{ page.subtitle }}</h2>
+    <div class="subtitle">{{ page.subtitle }}</div>
   {% endif %}
   <div class="byline">
     <time datetime="{{ page.date | time_tag }}">posted on {{ page.date | date: "%b, %-d %Y" }}</time>
