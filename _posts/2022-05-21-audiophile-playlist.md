@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Music Is the Art of Shaking Air
+title: Isn't Music the Art of Shaking Air?
 subtitle: Or, My Playlist for Next Year
 author: Florent Dufour
 date: 2022-05-21
-modified:
+modified: 2022-11-09
 location: Munich High-End Audio
 category: [music]
 ---
 
-Being an audiophile is as much about the gear as it is about the music. I had an offbeat feeling this year, as if air was shaking while missing out on the art component. Luckily<!--more-->, sticking long enough with the [Admire Audio AA4](https://admireaudio.com/aa4/) led me to re-discover _"Volver volver", Buika (2008)_. There's definitely something magical about horns, especially when they're lifting voices like Buika's (wait for the trumpet to enter). Other time, other horns, the [Avantgarde Trio G3](https://avantgarde-acoustic.de/trio/) is playing _"Two Thousand and Seventeen", Four Tet (2017)_. I like how they got people silent, meditative, with unabashed basses, and ultra-wide and sharp soundscapes.
+Being an audiophile is as much about the gear as it is about the art of music. I had an offbeat feeling this year, as if air was shaking while missing out on the art component. Luckily<!--more-->, sticking long enough with the [Admire Audio AA4](https://admireaudio.com/aa4/) led me to re-discover _"Volver volver", Buika (2008)_. There's definitely something magical about horns, especially when they're lifting voices like Buika's (wait for the trumpet to enter). Other time, other horns, the [Avantgarde Trio G3](https://avantgarde-acoustic.de/trio/) is playing _"Two Thousand and Seventeen", Four Tet (2017)_. I like how they got people silent, meditative, with unabashed basses, and ultra-wide and sharp soundscapes.
 
 The rest of the show unfortunately remained musically underwhelming. Why does everyone seem to be playing Norah Jones and Katie Melua[^1]?
 
