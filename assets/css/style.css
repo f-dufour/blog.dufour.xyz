@@ -68,13 +68,41 @@ blockquote {
 
 pre {
 	background-color: whitesmoke;
-	padding: 0.25em;
+	word-break: normal !important;
+	word-wrap: normal !important;
+	white-space: pre !important;
+	overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 code {
 	font-family: LM-Mono;
 	background-color: whitesmoke;
 }
+
+summary {
+	font-family: LM-Mono;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  text-align: center;
+	margin-top: 45px;
+	margin-bottom: 0;
+	width: 60%;
+}
+
+hr:after { /* TODO: Fade out edges? */
+  content: "∴";
+  display: inline-block;
+  position: relative;
+  top: -17px; /*Center on line */
+  padding: 0 10px; /*White space*/;
+  background: var(--background-color);
+  font-size: 18px;
+}	
 
 /* IMAGES STUFF */
 
@@ -196,6 +224,19 @@ figcaption {
 	border-top: 1px solid var(--font-color);
 }
 
+/* TABLE */
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px;
+  text-align: left;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 900px) {
@@ -236,7 +277,7 @@ figcaption {
 		text-decoration-color: var(--font-color-dark);
 	}
 
-	code {
+	code, pre {
 		background-color: #222;
 	}
 
@@ -254,5 +295,9 @@ figcaption {
 
 	#footer {
 		border-top-color: var(--font-color-dark);
+	}
+
+	hr:after { /* TODO: Fade out edges? */
+		background: var(--background-color-dark);
 	}
 }
