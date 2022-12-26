@@ -4,9 +4,9 @@ title: About
 permalink: /about
 ---
 
-This blog is written by me, Florent Dufour. I am a graduate student in biotechnology and computational biology. 
+This blog is written by me, Florent Dufour. I am a Ph.D. student in AI in medicine at the Technical University Munich. I work on privacy preserving AI with an emphasis on cryptographic enclaves.
 
-I've been working on new technology applied to healthcare in the fields of nanotechnology, artificial organ design, and high throughput data processing. More recently, I have been tackling data privacy and self-sovereignty issues for GDPR compliant data using cloud computing and blockchain technology.
+I'm a biologist at heart, previously working on new technology applied to healthcare in the fields of nanotechnology, artificial organ design, and high throughput data processing.
 
 I am an avid coder and tech hacker.
 
