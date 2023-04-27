@@ -10,6 +10,7 @@ encoding: utf-8
 timezone: Europe/Paris
 permalink: /:year/:title
 excerpt_separator: <!--more-->
+future: true # publish posts in the future too
 
 theme-color: "#fdf52b"
 theme-color-dark: "#333"
@@ -18,6 +19,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - kramdown
   - rouge
 
 exclude:

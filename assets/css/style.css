@@ -67,7 +67,6 @@ blockquote {
 }
 
 pre {
-	background-color: whitesmoke;
 	word-break: normal !important;
 	word-wrap: normal !important;
 	white-space: pre !important;
@@ -79,7 +78,6 @@ pre {
 
 code {
 	font-family: LM-Mono;
-	background-color: whitesmoke;
 }
 
 summary {
@@ -280,10 +278,6 @@ table, th, td {
 	a:hover {
 		background: var(--accent-color-dark);
 		text-decoration-color: var(--font-color-dark);
-	}
-
-	code, pre {
-		background-color: #222;
 	}
 
 	.footnotes::before {
