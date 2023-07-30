@@ -114,6 +114,7 @@ img {
 	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 	-khtml-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+	max-height: 250px;
 }
 
 /* LINKS STUFF */

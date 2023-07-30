@@ -12,7 +12,7 @@ I am an avid coder and tech hacker.
 
 <center>
 <picture>
-  <source srcset="/assets/img/macmade-blk.gif" media="(prefers-color-scheme:dark)">
-  <img src="/assets/img/macmade-wht.gif">
+  <source srcset="{% link /assets/img/macmade-blk.gif %}" media="(prefers-color-scheme:dark)">
+  <img src="{% link /assets/img/macmade-wht.gif %}">
 </picture>
 </center>
